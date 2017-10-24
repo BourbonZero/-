@@ -1,4 +1,4 @@
-#Work2
+#Answer2
 #author Bourbon
 #1
 DELETE FROM commit WHERE total_add > 5000 AND total_delete < 100;
