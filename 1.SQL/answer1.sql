@@ -14,8 +14,8 @@ CREATE TABLE `order`(
 
 #2
 SELECT name, price FROM clothes
-WHERE type = '衬衫' AND price >= 120 AND price <=150
-ORDER BY price  ;
+WHERE type = '衬衫' AND price >= 120 AND price <=180
+ORDER BY price;
 
 #3
 SELECT name, ifnull(sum(quantity),0) FROM

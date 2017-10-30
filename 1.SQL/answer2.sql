@@ -30,5 +30,5 @@ ORDER BY totalCode DESC ;
 
 #6
 UPDATE deadline
-SET end_day = date_sub(end_day, INTERVAL 1 WEEK)
+SET end_day = date_add(end_day, INTERVAL 1 WEEK)
 WHERE id = 3;
